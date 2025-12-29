@@ -1,0 +1,13 @@
+#
+
+/input
+/output
+
+.ipynb_checkpoints/
+.DStore
+
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
