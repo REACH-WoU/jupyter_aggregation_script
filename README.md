@@ -6,7 +6,7 @@ We developed this script to replace the old one (not on github) to make it easie
 
 ### 1. Select Multiple Questions
 
-- if only one value, return it
+- if only one value, return NA
 - if two values, see if there is a full consensus. if yes, return the value, otherwise - no consensus (NC)
 - if three or more values, return the majority ($\geq50%$) answer
 
@@ -20,6 +20,7 @@ We developed this script to replace the old one (not on github) to make it easie
 
 - turn the column into several columns with one-hot encoding
 - apply the rules for select multiple questions
+- in the end check if there are multiple options selected (e.g. when there are 4 surveys - 2 say "yes" and 2 say "no") - recode to no consensus (NC)
 
 ### 4. Select One Ordinal Questions
 
