@@ -20,7 +20,7 @@ We developed this script to replace the old one (not on github) to make it easie
 
 - turn the column into several columns with one-hot encoding
 - apply the rules for select multiple questions
-- in the end check if there are multiple options selected (e.g. when there are 4 surveys - 2 say "yes" and 2 say "no") - recode to no consensus (NC)
+- **to be added:** in the end check if there are multiple options selected (e.g. when there are 4 surveys - 2 say "yes" and 2 say "no") - recode to no consensus (NC)
 
 ### 4. Select One Ordinal Questions
 
